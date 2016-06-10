@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0 3% 0;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+
+.movie {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.details {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 0 5% 2% 5%;
+    color: #1C1C1C;
+    background-color: white;
+    border-top: 2px solid #F2F2F2;
+}
+
+.details h2 {
+    color: #0378A6;
+}
